@@ -1,29 +1,54 @@
-*{
-    margin: 0;
+@font-face {
+    font-family: 'Onest';
+    src: url(../font/Onest-VariableFont_wght.ttf);
 }
-.cabecalho{
-    background-color: rgba(28,52,51,1);
-    width: 100%;
+*{margin: 0;}
+.cabecalho {
+    background-color: #1C3433;
     height: 121px;
-}
-.cabecalho>nav{
+    width: 100%;
     display: flex;
-    padding: 5px;
-    justify-content:end;/*Os itens são distribuídos uniformemente dentro do contêiner de alinhamento ao longo do eixo principal*/
-    height: 70px;
-    align-items:space around; /*funciona corretamente graças ao "display:flex"*/
-    font-size: 17px;
-    text-align:justify;
+    justify-content: center;
+    align-items: end;
 }
-.navegacao>ul{
-    list-style: none;
+.titulo1{
+    font-family: 'Onest';
+    color: rgba(255, 255, 255, 1);
+    height: 210px;
+    width: 744px;
+    font-size: 60px;
 }
-.navegacao>ul a{
+.titulo1 span{
+    color: rgba(83, 204, 108, 1);
+}
+.inicio{
+    /*background-image:url(../img/capa-inicio.jpg);*/
+    width: 100%;
+    height: 812px;
+    top: 121px;
+    background-size: cover;
+    /*background-image: linear-gradient(to right, rgba(28, 52, 51, 0.9), rgba(28, 52, 51, 0.4));*/
+    background: linear-gradient(to right, rgba(28, 52, 51, 0.9), rgba(28, 52, 51, 0.4)), url(../img/capa-inicio.jpg) no-repeat center center;
+
+}
+.apresentacao1{
+    font-size: 18px;
+    font-family: 'Onest';
+    height: 81px;
+    width: 533px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: rgba(255, 255, 255, 1);
+}
+.botao-contato>a{
     text-decoration: none;
-    color: rgba(255,255,255,1);
-    margin: 7 px;
+    color: rgba(83, 204, 108, 1);
+    font-size: 20px;
+    border-radius: 7px;
+    border:rgba(83, 204, 108, 1) solid;
+    width: 357px;
+    height: 66px;
+    padding: 20px 40px 20px 40px;
+    gap: 16px;
 }
-.botao_Incompany>li{
-    border: 1px;
-    border-color: rgba(255,255,255,1);
-}
+
