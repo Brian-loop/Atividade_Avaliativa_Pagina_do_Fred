@@ -6,11 +6,89 @@
 .cabecalho {
     background-color: #1C3433;
     height: 121px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: end;
 }
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 2%;
+    align-items: center;
+    
+}
+.logo img{
+    width: 200px;
+    top: 32px;
+    left: 200px;
+    height: 59px;
+    margin-left: 200px;
+    margin-top: 32px;
+}
+.menu{
+    padding-top: 30px;
+    width: 70%;
+    text-align: right;
+    top: 50%;
+}
+.menu a{
+    font-family: 'Onest';
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 30px;
+    top: 41px;
+    left: 1347px;
+    width: 373px;
+    height: 42px;
+    font-size: 17px;
+
+
+}
+.company{
+    width: 137px;
+    height: 42px;
+    border: 1px solid rgba(255, 255, 255, 1); /*criação de uma borda que nem um botão*/
+    border-radius: 7px;
+    padding: 10px 20px 10px 20px;
+    gap: 10px;
+}
+/*Não mexer nada daqui de cima ...obs:tudo certo*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .titulo1{
     font-family: 'Onest';
     color: rgba(255, 255, 255, 1);
