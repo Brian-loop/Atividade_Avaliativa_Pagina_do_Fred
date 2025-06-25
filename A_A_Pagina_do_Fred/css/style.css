@@ -1,3 +1,54 @@
+/*@font-face {
+    font-family: 'Onest';
+    src: url(../font/Onest-VariableFont_wght.ttf);
+}
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+/*Tamanho do meu cabeçario
+CABEÇARIO-------------------------------------------------------------------*/
+/*.cabecario{
+    background-color: #1C3433;
+    height: 121px;
+    /*display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 12%;
+    font-family: 'Onest';*/
+/*}
+.menu{
+    height: 42px;
+    width: 373px;
+    /*display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+}*/
+/*.menu>a{
+    font-size: 17px;
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+    font-weight: 600;
+    background-color: rgb(27, 27, 25);*/
+/*}
+.logo>img{
+    height: 59px;
+    width: 195px;/*
+}
+/*.botao-company{
+    font-family: 'Onest';
+    font-size: 17px;
+    font-weight: 600;
+    padding: 10px 20px 10px 20px;
+    border-radius: 7px;
+    border: rgba(255, 255, 255, 1) solid 1px;
+    background-color: #1C3433;
+    color: rgba(255, 255, 255, 1);
+}
+*/
+
 @font-face {
     font-family: 'Onest';
     src: url(../font/Onest-VariableFont_wght.ttf);
@@ -275,7 +326,6 @@ CABEÇARIO-------------------------------------------------------------------*/
     position: relative;
     left: 345px;
     top: 0%;
-       
 }
 /*=============================================================================================================================================*/
 /*INICIO #4 -----------------------------------------------------------------------------------------------------------------------------------*/
@@ -372,7 +422,6 @@ CABEÇARIO-------------------------------------------------------------------*/
     height: 1050px;
     background-color: white;
     position: relative;
-       
 }
 .container6{
     width: 1132px;
